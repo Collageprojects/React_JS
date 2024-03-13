@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 60px;
+    cursor: pointer;
+}

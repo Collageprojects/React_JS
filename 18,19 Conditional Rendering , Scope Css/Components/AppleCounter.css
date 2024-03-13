@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+button {
+  align-items: center;
+  gap: 10px;
+}
+img {
+  width: 60px;
+  cursor: pointer;
+}

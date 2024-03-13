@@ -1,0 +1,35 @@
+.shimmer {
+  width: 1000px;
+  height: 317px;
+  background-color: #f0f0f0; /* Light background color for shimmer effect */
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+}
+
+.shimmer .flag,
+.shimmer-text {
+  height: 100%;
+  width: 50%; /* Adjust the width based on your design */
+  float: left;
+}
+
+.shimmer .flag {
+  background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+  animation: shimmerAnimation 1.5s infinite linear;
+}
+
+.shimmer  {
+  background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+  animation: shimmerAnimation 1.5s infinite linear;
+}
+
+@keyframes shimmerAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

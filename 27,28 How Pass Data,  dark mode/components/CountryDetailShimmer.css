@@ -1,0 +1,57 @@
+/* .shimmer-card-detail {
+  width: 1000px;
+  height: 317px;
+  background-color: rgb(139, 146, 146);
+  align-items: center;
+  display: flex;
+}
+
+.details-text2 {
+  background-color: #b0b3c8;
+  width: 497px;
+  height: 299px;
+  margin-left: 435px;
+  margin-top: 9px;
+  border-radius: 17px;
+}
+.details-img2 {
+  height: 350px;
+  width: 250px;
+  background-color: #b0b3c8;
+} */
+
+.shimmer-card-detail {
+  width: 1000px;
+  height: 317px;
+  background-color: #f0f0f0; /* Light background color for shimmer effect */
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+}
+
+.shimmer-img,
+.shimmer-text {
+  height: 100%;
+  width: 50%; /* Adjust the width based on your design */
+  float: left;
+}
+
+.shimmer-img {
+  background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+  animation: shimmerAnimation 1.5s infinite linear;
+}
+
+.shimmer-text {
+  background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
+  animation: shimmerAnimation 1.5s infinite linear;
+}
+
+@keyframes shimmerAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

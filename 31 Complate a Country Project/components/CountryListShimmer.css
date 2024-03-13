@@ -1,0 +1,31 @@
+.shimmer-card {
+    height: 350px;
+    background-color: rgba(117, 124, 126, 0.427);
+}
+
+.shimmer-card  .flag-container {
+    height: 148px;
+     background-color: #637078;
+     overflow: hidden;
+   /* width: 234px;
+    
+    display: block;
+    margin-left: 9px;
+    margin-top: 8px;
+    border-radius: 16px; */
+}
+
+.shimmer-card  .card-title{
+    background-color: #637078;
+    width: 196px;
+    height: 33px;
+    border-radius: 5px;
+}
+
+.shimmer-card  p{
+    background-color: #637078;
+    width: 185px;
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
